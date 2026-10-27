@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SkillBridge — Build skills. Build your future.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#" data-view="home"><span class="brand-mark">S</span> skillbridge<span class="brand-dot">.</span></a>
+  <nav><button class="nav-link active" data-view="home">Explore</button><button class="nav-link" data-view="dashboard">My learning</button><button class="nav-link" data-view="quiz">Skill quiz</button></nav>
+  <div class="user-actions" id="userActions"><button class="btn btn-quiet" id="loginOpen">Log in</button><button class="btn btn-dark" id="registerOpen">Get started <span>↗</span></button></div>
+</header>
+<main id="app">
+  <section class="hero">
+    <div class="hero-copy"><div class="eyebrow"><span class="eyebrow-dot"></span> YOUR CAREER, YOUR NEXT CHAPTER</div>
+      <h1>Learn skills.<br><span>Unlock possibilities.</span></h1>
+      <p>Build job-ready skills with curated learning paths, track your progress, and take the next step in your career.</p>
+      <div class="hero-actions"><button class="btn btn-dark btn-large" data-scroll="courses">Explore learning paths <span>↗</span></button><button class="text-button" data-view="quiz">Take a quick skill quiz <span>→</span></button></div>
+      <div class="social-proof"><div class="avatar-stack"><span>AK</span><span>PS</span><span>RM</span><span>+</span></div><div><strong>Learn at your own pace</strong><small>Practical skills for a changing world</small></div></div>
+    </div>
+    <div class="hero-art"><div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="art-center"><div class="art-icon">✳</div><div class="art-title">Your next skill<br>starts here.</div><div class="art-sub">LEARN · PRACTICE · GROW</div></div><div class="float-card float-top"><span class="float-icon purple">↗</span><div><b>Keep growing</b><small>One lesson at a time</small></div></div><div class="float-card float-bottom"><span class="float-icon green">✓</span><div><b>Progress unlocked</b><small>Every step counts</small></div></div><span class="spark spark-a">✦</span><span class="spark spark-b">✳</span></div>
+  </section>
+  <section class="metrics"><div><strong>6<span>+</span></strong><small>Curated learning paths</small></div><div><strong>4</strong><small>Skill categories</small></div><div><strong>100<span>%</span></strong><small>Learn at your pace</small></div><div><strong>1</strong><small>Step closer to your goal</small></div></section>
+  <section class="section" id="courses"><div class="section-head"><div><div class="eyebrow">FIND YOUR DIRECTION</div><h2>Learning paths for <span>what's next.</span></h2><p>Practical courses designed to help you grow with confidence.</p></div><div class="course-count" id="courseCount">6 paths</div></div>
+    <div class="filters"><label class="searchbox"><span>⌕</span><input id="searchInput" placeholder="Search skills, courses..." autocomplete="off"></label><select id="categoryFilter"><option>All categories</option><option>Programming</option><option>Web Development</option><option>Data</option><option>Design</option></select></div>
+    <div class="course-grid" id="courseGrid"><div class="loading">Finding your next learning path…</div></div>
+  </section>
+  <section class="bottom-cta"><div><div class="eyebrow">SMALL STEPS. BIG MOMENTUM.</div><h2>Your future self will thank you.</h2><p>Create your free account and keep your learning journey moving.</p></div><button class="btn btn-light btn-large" id="ctaRegister">Start learning <span>↗</span></button></section>
+</main>
+<footer><a class="brand" href="#"><span class="brand-mark">S</span> skillbridge<span class="brand-dot">.</span></a><span>Built for curious minds and ambitious futures.</span><span>© 2026 SkillBridge</span></footer>
+<div class="modal-backdrop hidden" id="authModal"><div class="modal"><button class="modal-close" id="modalClose">×</button><div class="brand"><span class="brand-mark">S</span> skillbridge<span class="brand-dot">.</span></div><div class="eyebrow" id="authEyebrow">YOUR NEXT CHAPTER</div><h2 id="authTitle">Welcome back.</h2><p id="authSubtitle">Pick up where your learning journey left off.</p><form id="authForm"><label id="nameWrap" class="form-field hidden">Full name<input id="nameInput" placeholder="Your name"></label><label class="form-field">Email address<input type="email" id="emailInput" placeholder="you@example.com" required></label><label class="form-field">Password<input type="password" id="passwordInput" placeholder="At least 6 characters" minlength="6" required></label><button class="btn btn-dark btn-large full-width" id="authSubmit">Log in <span>↗</span></button><div class="form-error" id="authError"></div></form><div class="auth-switch" id="authSwitch">New to SkillBridge? <button id="switchAuth">Create an account</button></div></div></div>
+<div class="toast" id="toast"></div>
+<script src="/app.js"></script>
+</body></html>

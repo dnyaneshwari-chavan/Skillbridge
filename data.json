@@ -1,0 +1,119 @@
+{
+  "users": [
+    {
+      "id": 1793084336119,
+      "name": "Dnyaneshwari Chavan",
+      "email": "dnyaneshwari5878@gmail.com",
+      "password": "$2a$10$XQUqBmgQoXdMrRI6DMKasetH2y3Y2wE2E27cDUkNX/5P6vmo9v1AO",
+      "role": "learner",
+      "createdAt": "2026-10-27T06:58:56.411Z"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Java Programming",
+      "category": "Programming",
+      "level": "Beginner",
+      "duration": "6 weeks",
+      "description": "Learn Java fundamentals, OOP, collections and exception handling.",
+      "skills": [
+        "Java",
+        "OOP"
+      ],
+      "lessons": 12,
+      "enrolled": 128
+    },
+    {
+      "id": 2,
+      "title": "Frontend Web Development",
+      "category": "Web Development",
+      "level": "Beginner",
+      "duration": "4 weeks",
+      "description": "Build responsive websites with HTML, CSS and modern JavaScript.",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "lessons": 10,
+      "enrolled": 214
+    },
+    {
+      "id": 3,
+      "title": "Data Analytics Essentials",
+      "category": "Data",
+      "level": "Intermediate",
+      "duration": "5 weeks",
+      "description": "Explore data cleaning, visualization and analytical thinking.",
+      "skills": [
+        "Excel",
+        "SQL",
+        "Analytics"
+      ],
+      "lessons": 9,
+      "enrolled": 86
+    },
+    {
+      "id": 4,
+      "title": "Python for Problem Solving",
+      "category": "Programming",
+      "level": "Beginner",
+      "duration": "5 weeks",
+      "description": "Practice Python syntax, functions, data structures and algorithms.",
+      "skills": [
+        "Python",
+        "Logic"
+      ],
+      "lessons": 11,
+      "enrolled": 176
+    },
+    {
+      "id": 5,
+      "title": "SQL & Database Design",
+      "category": "Data",
+      "level": "Intermediate",
+      "duration": "3 weeks",
+      "description": "Understand relational databases, joins, queries and schema design.",
+      "skills": [
+        "SQL",
+        "Database"
+      ],
+      "lessons": 8,
+      "enrolled": 95
+    },
+    {
+      "id": 6,
+      "title": "UI/UX Design Basics",
+      "category": "Design",
+      "level": "Beginner",
+      "duration": "3 weeks",
+      "description": "Learn user journeys, wireframes, visual hierarchy and prototyping.",
+      "skills": [
+        "Figma",
+        "UX"
+      ],
+      "lessons": 7,
+      "enrolled": 72
+    }
+  ],
+  "progress": [
+    {
+      "userId": 1793084336119,
+      "courseId": 5,
+      "completedLessons": 8,
+      "completed": true,
+      "updatedAt": "2026-10-27T07:02:18.603Z"
+    }
+  ],
+  "quizResults": [
+    {
+      "id": 1793084430701,
+      "userId": 1793084336119,
+      "score": 80,
+      "correct": 4,
+      "total": 5,
+      "date": "2026-10-27T07:00:30.701Z"
+    }
+  ]
+}
