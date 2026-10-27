@@ -22,7 +22,7 @@ SkillBridge is a full-stack web application designed to help users explore cours
 
 1. Clone the repository:
    ```bash
-   git clone YOUR_REPOSITORY_URL
+   git clone https://github.com/dnyaneshwari-chavan/SkillTrack/
    ```
 
 2. Open the project folder:
@@ -50,4 +50,4 @@ SkillBridge is a full-stack web application designed to help users explore cours
 - Deployment to a cloud platform
 
 ## Author
-Add your name here.
+Dnyaneshwari Chavan.
