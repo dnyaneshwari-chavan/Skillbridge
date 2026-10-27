@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillTrack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>SkillTrack</h1>
+        <nav>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#skills">My Skills</a>
+            <a href="#certificates">Certificates</a>
+        </nav>
+    </header>
+
+    <section id="dashboard" class="container">
+        <h2>Welcome to SkillTrack</h2>
+        <p>Manage your skills and certificates in one place.</p>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Total Skills</h3>
+                <p id="totalSkills">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Total Certificates</h3>
+                <p id="totalCertificates">0</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>My Skills</h2>
+
+        <input type="text" id="skillInput"
+               placeholder="Enter skill name">
+
+        <button onclick="addSkill()">Add Skill</button>
+
+        <ul id="skillList"></ul>
+    </section>
+
+    <section id="certificates" class="container">
+        <h2>My Certificates</h2>
+
+        <input type="text" id="certificateInput"
+               placeholder="Enter certificate name">
+
+        <button onclick="addCertificate()">Add Certificate</button>
+
+        <ul id="certificateList"></ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
